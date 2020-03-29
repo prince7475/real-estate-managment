@@ -10,7 +10,7 @@ export default class Main extends Component {
         return (
             <div>
                 <Router>
-                    <div>
+                    {/* <div>
                         Temp:
                         <ul>
                             <li>
@@ -26,7 +26,7 @@ export default class Main extends Component {
                                 <Link to='/houseInfo'>HouseInfo</Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
 
 

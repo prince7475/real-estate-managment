@@ -7,7 +7,7 @@ import Main from "./components/Main";
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className='background-color'>
           <Main/>
         </div>
     );
