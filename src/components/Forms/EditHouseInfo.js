@@ -4,13 +4,13 @@ import {
     Link,
     MDBInput
 } from "mdbreact";
-export default class AddHouse extends Component {
+export default class EditHouseInfo extends Component {
     render() {
         return (
             <div>
                 <MDBContainer>
-                    <h2>Add House Info</h2>
-                    <Link to='/dashboard'><MDBBtn>Dashboard</MDBBtn></Link>
+                    <h2>Edit House Info</h2>
+                    <Link to='/houseInfo/1'><MDBBtn>House Info</MDBBtn></Link>
                     <MDBInput label="Address" />
                     <MDBInput label="State" />
                     <MDBInput label="Zip Code" />

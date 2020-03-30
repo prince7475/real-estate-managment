@@ -6,6 +6,7 @@ import TenantInfo from './Pages/TenantInfo'
 import HouseInfo from './Pages/HouseInfo'
 import AddHouse from './Forms/AddHouse'
 import AddTenant from './Forms/AddTenant'
+import EditHouseInfo from './Forms/EditHouseInfo'
 
 export default class Main extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class Main extends Component {
                         <Route exact path='/tenantInfo/:id' component={TenantInfo}/>
                         <Route exact path='/houseInfo/:id' component={HouseInfo}/>
                         <Route exact path='/addHouse' component={AddHouse} />
+                        <Route exact path='/editHouseInfo' component={EditHouseInfo} />
                         <Route exact path='/addTenant' component={AddTenant} />
                         <Route path="**" component={DashBoard} />
                     </Switch>
