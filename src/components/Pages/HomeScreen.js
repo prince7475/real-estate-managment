@@ -3,7 +3,8 @@ import {
     MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol,
     MDBCardTitle, MDBIcon, MDBModal, MDBModalBody,
     MDBModalHeader, MDBModalFooter,
-    MDBInput
+    MDBInput,
+    Link
 } from "mdbreact";
 export default class HomeScreen extends Component {
 
@@ -80,6 +81,7 @@ export default class HomeScreen extends Component {
                         <MDBModalFooter>
                             <MDBBtn color="secondary" onClick={this.signUpToggle}>Close</MDBBtn>
                             <MDBBtn color="primary" onClick={this.loginSubmit}>Create account</MDBBtn>
+                            <Link to='/dashboard'><MDBBtn>Temp: Dashboard</MDBBtn></Link>
                         </MDBModalFooter>
                     </MDBModal>
                 </MDBContainer>
