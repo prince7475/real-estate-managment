@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import HouseCard from '../Cards/HouseCard'
 import {
-    MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol,
-    MDBCardTitle, MDBIcon, MDBModal, MDBModalBody,
-    MDBModalHeader, MDBModalFooter,
-    MDBInput,
+    MDBBtn, MDBContainer, MDBRow, MDBCol,
     Link
 } from "mdbreact";
 export default class DashBoard extends Component {
